@@ -1,0 +1,15 @@
+## Working
+
+- Inside HTML file I have made 3 divs with different ids and 3 inputs inside it with type number and placeholder
+
+* In the style.css
+  - first I have removed the default styling by margin 0, padding 0, box-sizing: border box
+  * than give the border-top and border-bottom to the middle one 
+  * then put the input[type=number] give it width to be 100%
+
+* In the App.js
+    * First I have used [celciusInput= document.querySelector("#id>input")] done this for all the three div 
+    * in the celciusInput.addEventListener('input', celciusToFahrenheightAndKelvin);
+    * celciusToFahrenheightAndKelvin is a function that will be called to as soon as number is input
+    * this function will convert and put the value in remaing two input value
+
